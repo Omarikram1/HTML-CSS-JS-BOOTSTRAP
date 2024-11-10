@@ -1,0 +1,40 @@
+.button6{
+   
+    border-radius: 26px;
+    border: 0.5px solid rgb(12 102 238);
+    padding: 16px 55px;
+
+ 
+}
+
+
+.fifthsection{
+    
+        background: url(https://nefa-rsurya99.vercel.app/_nuxt/img/background.df48bff.png);
+        margin: 100px 20px;
+        background-size: cover;
+        border-radius: 23px;
+        background-position: 50%;
+        border: 1px solid #e5e7eb;
+    
+}
+
+.button7{
+   
+    border-radius: 26px;
+  
+    padding: 10px 42px;
+
+ 
+}
+
+
+.text-decoration-underline{
+    text-decoration-color:  rgb(12 102 238);;
+}
+
+
+
+.Imagesizescomplete{
+    width: 100%;
+}

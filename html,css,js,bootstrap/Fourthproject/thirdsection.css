@@ -1,0 +1,19 @@
+
+.thirdsection{
+    background:url("https://nefa-rsurya99.vercel.app/_nuxt/img/background.df48bff.png");
+    margin: 100px 20px;
+    background-size: cover;
+    border-radius: 23px;
+    background-position: 50%;
+    border: 1px solid #e5e7eb;
+}
+
+
+
+.thirdsectionclass{
+    padding: 70px 0px;
+}
+
+
+/* Note: Upar wala border remove krna ha border baically theek krne hain 
+Responsiveness issue ha abi 3rd div flex wale ko row keh k col-md-3 me kaam krna prega */

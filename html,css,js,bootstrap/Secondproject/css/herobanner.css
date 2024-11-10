@@ -1,0 +1,519 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap');
+
+
+.herobanner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.informationbutton5 p {
+    font-size: 13px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: var(--bs-font-sans-serif);
+    margin-top: 9px;
+}
+
+
+.informationbutton5 {
+    background-color: #3E66F3;
+    border-radius: 50px;
+    width: 38%;
+    padding: 6px 31px;
+    margin-top: 0px;
+    color: white;
+    height: 35px;
+}
+
+.lasttwoelementsoffeeature {
+
+
+    display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding-top: 31px;
+}
+
+
+.users{
+
+    width: 33%; 
+   
+    padding-right: 89px;
+}
+
+
+
+.alsousers{
+    border-right: 1px solid #E3E7F0; 
+}
+
+
+
+.doojauser{
+    margin-left: 92px;
+}
+.hr{
+    position: relative; 
+    margin-top: 65px; 
+    margin-right: -29px; 
+    left: 0px;
+}
+
+
+
+
+.clientreview {
+    display: flex;
+   
+    height: 100%;
+
+    gap: -9px;
+
+
+    margin-right: 103px;
+    gap: 5px;
+    width: 66%;
+}
+   
+
+.clientreviewstarts {
+    width: 60%;
+}
+
+
+
+.clientreviewpics {
+    width: 41%;
+}
+
+
+
+.clientreviewpics{
+
+    text-align: center;
+    margin-top: 4px;
+    width: 35%;
+margin-left: 25px;
+
+}
+.paddedherobanner{
+    padding: 20px 67px 66px 67px;
+    display: flex;
+}
+
+
+.firsterobanner {
+    padding-top: 88px;
+    width: 50%;
+}
+
+.secondherobanner{
+    width: 40%;
+    padding-top: 100px;
+    margin-left: 182px;
+}
+
+
+
+.firstherobanner h1{
+    font-size: 72px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+.currentusers{
+    padding-top: 38px;
+    /* padding: 1px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.users{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+
+
+.users h2{
+    color: #3E66F3;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+.fivestars i{
+    color:#FFBE11
+}
+
+
+
+
+.clientreivewpics{
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 26px;
+    width: 105px;
+}
+
+
+
+.clientreivew{
+    width: 43%;
+}
+
+
+
+
+
+
+@media only screen and (max-width:700px){
+
+
+.image10{
+    padding-right: 7px;
+}
+
+
+
+.doojauser{
+        margin-left: 0px;
+    }
+.herobanner{
+    width: 100%;
+}
+
+
+
+
+
+.paddedherobanner{
+    padding: 71px 67px 66px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.firstherobanner h1 {
+    font-size: 44px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+}
+
+
+.lasttwoelementsoffeeature {
+    padding-top: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    align-content: flex-start;
+    align-items: start !important; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.clientreview {
+    display: flex;
+    /* width: 35%; */
+    height: 100%;
+}
+
+
+
+
+.clientreivew{
+    display: flex;
+    width: 35%;
+    height: 100%;
+    margin-right: 103px;
+    gap: 5px;
+    width: 77%;
+}
+
+
+
+
+.currentusers{
+    flex-direction: column;
+}
+
+
+/* 
+.clientreviewpics{
+
+margin-left: 3px;
+
+}
+ */
+
+
+
+.hr{
+    position: relative; 
+    margin-top: 65px; 
+    margin-right: 11px;
+    left: 1px;
+}
+
+
+
+.users{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #141d38a6;
+    width: 76% !important; 
+    border-right: 1px solid #E3E7F0; 
+    padding-right: 89px;
+}
+
+.informationbutton5 p {
+    font-size: 13px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: var(--bs-font-sans-serif);
+    margin-top: 9px;
+}
+
+
+.informationbutton5 {
+    color: white;
+    width: 42% !important;
+    text-align: start;
+    height: 38px;
+
+
+    
+    background-color: #3E66F3;
+    border-radius: 50px;
+    padding: 6px 31px;
+    margin-top: 0px;
+  
+}
+
+
+
+.secondherobanner {
+    width: 100%;
+    padding-top: 79px;
+    margin-left: 0px;
+}
+
+
+.secondherobanner img{
+
+
+
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:476px){
+
+
+    .image10{
+        padding-right: 7px;
+    }
+    
+    
+    
+    .doojauser{
+            margin-left: 0px;
+        }
+    .herobanner{
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+    .paddedherobanner{
+        padding: 90px 36px 66px 11px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    .firstherobanner h1 {
+        font-size: 40px;
+        font-family: 'Barlow', sans-serif;
+        font-weight: bold;
+    }
+    
+    
+    .lasttwoelementsoffeeature {
+        padding-top: 29px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 32px;
+        align-content: flex-start;
+        align-items: start !important; 
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .clientreview {
+        display: flex;
+        /* width: 35%; */
+        height: 100%;
+    }
+    
+    
+    
+    
+    .clientreivew{
+        display: flex;
+        width: 35%;
+        height: 100%;
+        margin-right: 103px;
+        gap: 5px;
+        width: 77%;
+    }
+    
+    
+    
+    
+    .currentusers{
+        flex-direction: column;
+    }
+    
+    
+    /* 
+    .clientreviewpics{
+    
+    margin-left: 3px;
+    
+    }
+     */
+    
+    
+    
+    .hr{
+        position: relative; 
+        margin-top: 65px; 
+        margin-right: 11px;
+        left: 1px;
+    }
+    
+    
+    
+    .users{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        color: #141d38a6;
+        width: 76% !important; 
+        border-right: 1px solid #E3E7F0; 
+        padding-right: 89px;
+    }
+    
+    .informationbutton5 p {
+        font-size: 14px;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: var(--bs-font-sans-serif);
+        margin-top: 9px;
+    }
+    
+    
+    .informationbutton5 {
+        color: white;
+        width: 39% !important;
+        text-align: start;
+        height: 40px;
+        background-color: #3E66F3;
+        border-radius: 50px;
+        padding: 6px 31px;
+        margin-top: 0px;
+    }
+    
+    
+    
+    .secondherobanner {
+        width: 100%;
+        padding-top: 79px;
+        margin-left: 0px;
+    }
+    
+    
+    .secondherobanner img{
+    
+    
+    
+        width: 100%;
+    }
+
+    .clientreviewpics {
+        text-align: center;
+        margin-top: 4px;
+        width: 35%;
+        margin-left: 8px;
+    }
+    }
+    
+    
+    

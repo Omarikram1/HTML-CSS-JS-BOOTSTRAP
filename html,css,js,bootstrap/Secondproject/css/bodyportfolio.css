@@ -1,0 +1,96 @@
+.portfolio{
+
+
+    background-color: white;
+}
+
+
+.paddedportfolio{
+    padding: 70px 50px 70px 50px;
+    text-align: center
+}
+
+.portfoliocontainer{
+
+
+    width: 30%;
+    height: auto;
+    
+}
+
+
+.lowerpaddedportfolio{
+
+
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    justify-content: center;
+    gap: 20px;
+
+    /* isko change b kr skta hu accordingly to my setup */
+}
+
+.portfoliocontainerinner{
+    width: 25%;
+}
+
+.portfoliocontainer img{
+    border-radius: 20px;
+    height: 320px;
+    /* height: auto; */
+}
+
+
+
+
+@media only screen and (max-width:700px){
+    .lowerpaddedportfolio{
+        flex-direction: column;
+    }
+    .portfoliocontainer {
+        width: 100% !important;
+        height: auto;
+    }
+
+
+
+    .paddedfirstfrequentlyaskedquestions img {
+        width: 100% !important;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:476px){
+    .lowerpaddedportfolio{
+        flex-direction: column;
+    }
+    .portfoliocontainer {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .paddedportfolio{
+        padding: 70px 12px 70px 10px;
+    }
+
+
+    .paddedfirstfrequentlyaskedquestions img {
+        width: 100% !important;
+    }
+
+
+    .portfoliocontainer img {
+ 
+        height: auto;
+    }
+}
+
+
+
+
+

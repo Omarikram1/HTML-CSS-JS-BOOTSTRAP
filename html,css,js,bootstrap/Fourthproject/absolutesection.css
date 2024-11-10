@@ -1,0 +1,29 @@
+
+
+.absolutesection{
+    position: absolute;
+    top: -200px; /* Adjust this value to position it where you want */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+ 
+    height: auto;
+    z-index: 10; /* Ensure it appears above both sections */
+    background-color: white; /* Example background color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.secondsection{
+    z-index: 1; padding-top: 300px;
+}
+
+@media only screen and (max-width:768px){
+    /* .secondsection{
+        padding-top: 800px;
+    } */
+}
+
+
+

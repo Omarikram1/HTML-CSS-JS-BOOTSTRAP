@@ -1,0 +1,133 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+
+
+.workingprocess{
+    background-image: url("https://html.themeholy.com/webteck/demo/assets/img/bg/process_bg_3.jpg");
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.meowmoew{
+    font-size: 40px;
+}
+
+
+.paddedworkingprocess{
+    padding: 120px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.containerworkingprocess{
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+.insidecontainerworkingprocess{
+
+    width: 320px;
+    /* width: 25%; */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.fadedheading{
+   font-size: 60px;
+   color: white;
+   font-style: bold;
+   font-weight: 600;
+   line-height: 36px;
+   background: -webkit-linear-gradient(top, #fff 0%, #466EF9 100%);
+   background: linear-gradient(180deg, #fff 0%, #466EF9 100%);
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+
+
+
+.picunderheading{
+    width: 134px;
+    height: 134px;
+    background-color: #EFF1EA;
+    text-align: center;
+    border: 5px solid rgba(28, 28, 37, 0.2);
+    border-radius: 100px;
+    margin: 0px 0px 25px 0px;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+
+}
+
+
+
+
+.logosinsidebanner{
+    position: relative;
+    max-width: 441px;
+    padding: 7px;
+    z-index: 2;
+}
+
+
+
+@media only screen and (max-width:700px){
+    
+.containerworkingprocess{
+    flex-direction: column;
+}
+
+.meowmoew{
+    font-size: 27px;
+}
+}
+
+
+
+
+@media only screen and (max-width:476px){
+    
+    .containerworkingprocess{
+        flex-direction: column;
+    }
+    
+    .meowmoew{
+        font-size: 27px;
+    }
+
+
+    .picunderheading {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .welldonepicture{
+        margin-top: 29px !important;
+    }
+
+.owt{
+    line-height: 29px !important;
+    padding: 0px !important;
+}
+}
+
+

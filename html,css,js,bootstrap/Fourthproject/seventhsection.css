@@ -1,0 +1,32 @@
+.seventhsection {
+    background: url(https://nefa-rsurya99.vercel.app/_nuxt/img/background.df48bff.png);
+    margin: 100px 20px;
+    background-size: cover;
+    border-radius: 23px;
+    background-position: 50%;
+    border: 1px solid #e5e7eb;
+}
+
+
+
+
+
+
+
+/* @media (max-width: 1026px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+    .navbar-expand-lg .navbar-toggler {
+        display: block !important;
+    }
+}
+
+@media (min-width: 1027px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+    }
+    .navbar-expand-lg .navbar-toggler {
+        display: none !important;
+    }
+} */

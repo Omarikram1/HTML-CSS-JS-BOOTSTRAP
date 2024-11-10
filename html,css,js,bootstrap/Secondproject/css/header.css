@@ -1,0 +1,485 @@
+.topnavnone{
+    display: none;
+}
+
+
+.upperheader{
+    height: 65px;
+    background-color: #3E66F3;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+}
+
+
+.paddedupperheader{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 60px 0px 60px;
+}
+
+
+.twoseperatedivs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.fa-brands, .fab {
+    font-family: Font Awesome\ 6 Brands;
+    font-weight: 400;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons a {
+    color: white
+}
+
+
+.firstdiv ul{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: -35px;
+}
+
+
+.firstdiv ul li{
+
+    /* margin-left: 24px; */
+    margin-left: 17px;
+}
+
+
+.firstdiv{
+    width: 50%;
+}
+
+
+.firstdiv ul li a{
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+
+.gapli{
+    margin-left: 3px;
+    color:white;
+}
+
+
+
+
+.callusbotton p {
+    margin-top: 2px;
+    font-size: 16px;
+    /* text-align: center; */
+    text-transform: capitalize;
+    /* font-weight: 400; */
+    text-align: center;
+    margin-top: 10px;
+    font-family: var(--bs-font-sans-serif);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+
+.navbarhamburger{
+    margin-right: 17px;
+}
+.navbar{ 
+    
+    background-color:white;
+
+    height: 90px;
+} 
+
+
+.topnav {
+    display: flex;
+    width: 42%;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.topnav li a{
+   color: black;
+   
+}
+.topnav li {
+    list-style: none;
+    font-weight: 500;
+}
+
+
+.navbarlogo a img{
+    width: 85%;
+   
+    
+}
+
+
+.navbarbuttons{
+ 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 20%;
+}
+
+
+
+
+
+
+
+.callusbuttonptag{
+    margin-bottom: 10px;
+}
+
+.callusbotton{
+   
+    background-color: #3E66F3;
+    border-radius: 50px;
+    width: 11%;
+    padding: 6px 31px;
+    transition: background-color 0.8s ease;
+}
+
+.callusbotton:hover{
+    background-color: #111532;
+}
+
+
+.paddednavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 54px 18px 49px;
+}
+
+
+
+
+
+.seconddiv{
+    width: 11%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:700px){
+
+
+    .upperheader{
+            width: 100% ;
+            
+        }
+    
+    .paddedupperheader{
+        /* padding: 33px 103px 12px 139px; */
+        padding: 18px 147px 14px 147px;
+        text-align: center;
+    
+    }
+    
+    /* .twoseperatedivs{
+            
+        } */
+    
+    .firstdiv{
+        display:none
+    }
+    
+    
+    .seconddiv{
+        text-align: center;
+        width: 100%;
+    }
+    
+    
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .navbar{
+        width: 100%;
+    }
+    
+    
+    .topnav{
+        display: none;
+    
+    }
+    
+    .callusbotton{
+        display: none;
+    }
+    
+    .navbar{
+        display: none;
+    }
+    
+    
+    
+    .topnavnone {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        background-color: white;
+        position: relative;
+      }
+      
+    
+    
+      .paddedtopnavnone{
+    
+        padding: 20px 20px 11px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    
+      }
+    
+    .paddedtopnavnone .active{
+        padding: 14px 0px;
+    }
+      
+      .topnavnone #myLinks {
+        display: none;
+      }
+      
+      .topnavnone a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        background-color: white;
+      }
+      
+      .topnavnone a.icon {
+        height: 22px;
+      
+        right: 0;
+        top: 0;
+        background-color: #3E66F3;
+        border-radius: 4px;
+      }
+      
+      /* .topnavnone a:hover {
+        background-color: #ddd;
+        color: black;
+      } */
+      
+      .active {
+        background-color: #04AA6D;
+        color: white;
+      }
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:476px){
+
+
+.upperheader{
+        width: 100% ;
+        
+    }
+
+.paddedupperheader{
+    /* padding: 33px 103px 12px 139px; */
+    padding: 18px 147px 14px 147px;
+    text-align: center;
+
+}
+
+/* .twoseperatedivs{
+        
+    } */
+
+.firstdiv{
+    display:none
+}
+
+
+.seconddiv{
+    text-align: center;
+    width: 100%;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.navbar{
+    width: 100%;
+}
+
+
+.topnav{
+    display: none;
+
+}
+
+.callusbotton{
+    display: none;
+}
+
+.navbar{
+    display: none;
+}
+
+
+
+.topnavnone {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+  }
+  
+
+
+  .paddedtopnavnone{
+
+    padding: 20px 20px 11px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+  }
+
+.paddedtopnavnone .active{
+    padding: 14px 0px;
+}
+  
+  .topnavnone #myLinks {
+    display: none;
+  }
+  
+  .topnavnone a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+  }
+  
+  .topnavnone a.icon {
+    height: 22px;
+  
+    right: 0;
+    top: 0;
+    background-color: #3E66F3;
+    border-radius: 4px;
+  }
+  
+  /* .topnavnone a:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+
+
+
+
+}
+

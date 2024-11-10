@@ -1,0 +1,366 @@
+.keyoffeature{
+    padding-bottom: 40px;
+}
+
+
+.paddedkeyoffeature{
+    padding: 110px 50px 90px 50px;
+    display: flex;
+    
+}
+
+.kfc{
+    font-weight: 500;
+}
+.okaykro{
+    
+        padding-top: 27px;
+        padding-bottom: 36px;
+    
+}
+
+.okaykro h2{
+    font-size: 40px;
+}
+input{
+    outline: none;
+}
+
+
+
+.firstfeature{
+    width: 50%;
+}
+
+
+.secondfeature{
+    width: 45%;
+    margin-left: 61px;
+
+}
+
+.featurediv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.childoffeaturediv{
+
+    
+    width: 48%;
+    
+    border: 1px solid #8080802e;
+    height: 96px;
+    border-radius: 6px;
+
+}
+
+.logoone{
+    padding: 14px;
+    background: linear-gradient(45deg, #3E66F3 0%, #8BA5FF 100%);
+    border-radius: 10px;
+    width: 41px;    
+}
+.paddedchildoffeaturediv{
+
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    gap: 15px;
+  
+    height: 57px;
+}
+
+
+
+.lasttwoelementsoffeeature3{
+    padding-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clientreview{
+    display: flex;
+    width: 35%;
+    height: 100%;
+    /* height change hoskti ha */
+}
+
+
+.clientreviewpics{
+    width: 41%;
+
+}
+
+
+.clientreviewstarts{
+
+    width: 60%;
+}
+
+
+
+.pic{
+    height: 51px;
+}
+
+
+
+.reviewnumbers{
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+
+
+.hellobuttonbro{
+font-size: 13px;
+text-align: center;
+text-transform: capitalize;
+font-weight: 600;
+font-family: var(--bs-font-sans-serif);
+margin-top: 9px;
+
+}
+
+
+
+
+@media only screen and (max-width:700px){
+    .paddedkeyoffeature{
+        padding: 110px 20px 90px 20px;
+
+        flex-direction: column;
+        gap: 35px;
+    }
+
+
+    .firstfeature{
+        width: 100%;
+    }
+
+    .secondfeature{
+        width: 100%;
+        margin-left: 0px !important;
+    }
+
+    .secondfeature img{
+        width: 100%;
+    }
+    .okaykro h2{
+        font-size: 26px;
+    }
+
+
+    .childoffeaturediv {
+        width: 47%;
+        border: 1px solid #8080802e;
+        height: 96px;
+        border-radius: 6px;
+    }
+
+
+
+    .featurediv {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: space-between;
+    }
+
+
+    .h2one h3{
+        font-size: 13px !important;
+    }
+
+
+    .logoone{
+       
+        width: 27px;    
+    }
+
+    .lasttwoelementsoffeeature3{
+        padding-top: 29px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        gap: 32px;
+        align-content: flex-start;
+        align-items: start !important;
+    }
+
+
+    .informationbutton3{
+        color: white;
+        width: 20% !important;
+        text-align: start;
+        height: 38px;
+        background-color: #3E66F3;
+        border-radius: 50px;
+        padding: 6px 31px;
+        margin-top: 0px;
+    }
+
+    .logoone img{
+        width: 25px;
+    }
+
+
+    .clientreview {
+        
+        margin-right: -14px;
+        display: flex;
+        width: 54%;
+        height: 100%;
+    }
+
+
+    .informationbutton3 p {
+        font-size: 14px;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-family: var(--bs-font-sans-serif);
+        margin-top: 10px;
+
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:476px){
+    .paddedkeyoffeature{
+        padding: 110px 20px 90px 14px;
+
+        flex-direction: column;
+        gap: 35px;
+    }
+
+
+    .firstfeature{
+        width: 100%;
+    }
+
+    .secondfeature{
+        width: 100%;
+        margin-left: 0px !important;
+    }
+
+    .secondfeature img{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .okaykro h2{
+        font-size: 26px;
+    }
+
+    .okaykro{
+        padding-bottom: 19px;
+    }
+
+    .childoffeaturediv {
+        width: 94%;
+        border: 1px solid #8080802e;
+        height: 96px;
+        border-radius: 6px;
+    }
+
+
+
+    .featurediv {
+        display: flex;
+        flex-wrap: wrap;
+ 
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 22px;
+    }
+
+
+    .h2one h3{
+        font-size: 17px !important;
+
+    }
+
+
+    .logoone{
+       
+        width: 27px !important;    
+    }
+
+    .lasttwoelementsoffeeature3{
+        padding-top: 29px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 32px;
+        align-content: flex-start;
+        align-items: start !important;
+    }
+
+
+    .informationbutton3{
+        color: white;
+        width: 20% !important;
+        text-align: start;
+        height: 38px;
+        background-color: #3E66F3;
+        border-radius: 50px;
+        padding: 6px 31px;
+        margin-top: 0px;
+    }
+
+    .logoone img{
+        width: 25px;
+    }
+
+
+    .clientreview {
+        
+        margin-right: -14px;
+        display: flex;
+        width: 54%;
+        height: 100%;
+    }
+
+
+    .informationbutton3 p {
+        font-size: 14px;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-family: var(--bs-font-sans-serif);
+        margin-top: 10px;
+
+    }
+
+
+
+    .letssee{
+        color: #737887;
+        line-height: 27px;
+    
+    }
+
+
+    .nooomargin{
+        margin-top: 0px !important;
+    }
+
+
+    .reviewnumbers{
+        font-size: 13px;
+    }
+}
+
+
+
+

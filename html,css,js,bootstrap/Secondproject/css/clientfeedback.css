@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+
+
+
+
+.clientfeedback{
+    
+
+    background-image: url("https://html.themeholy.com/webteck/demo/assets/img/bg/testi_bg_11.jpg");
+}
+
+.paddedclientfeedback{
+    padding: 120px 150px;
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.maincontainer p{
+    font-size: 23px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+/* .feedbackclassbanner{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    justify-content: space-between;
+} */
+
+
+
+
+
+.maincontainer{
+    margin-bottom: 50px;
+}
+
+
+
+.feedbackclassbanner hr{
+color: blue;
+}
+
+
+
+.innerflex{
+    display: flex;
+}
+
+
+
+.innerflex button{
+
+    width: 10%;
+    height: 62px;
+    border-radius: 100px;
+    border: 0.1px solid #3E66F3;
+}
+
+
+.hellobutton :hover{
+
+    background-color: #3E66F3;
+}
+
+
+
+
+
+.feedbackclassbanner{
+    display: flex;
+}
+
+
+
+
+@media only screen and (max-width:700px){
+    .paddedclientfeedback {
+        padding: 104px 36px;
+    }
+
+
+
+    .maincontainer p {
+        font-size: 16px;
+        line-height: 31px;
+    
+    }
+
+
+
+
+    .keseho{
+        display: none;
+    }
+
+
+    .okok{
+
+        width: 57px;
+    }
+
+
+    .innerflex button {
+        width: 50%;
+        height: 73px;
+        border-radius: 100px;
+        border: 0.1px solid #3E66F3;
+    }
+
+
+
+    
+.innerflex {
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:476px){
+    .paddedclientfeedback {
+        padding: 104px 36px;
+    }
+
+
+
+    .maincontainer p {
+        font-size: 16px;
+        line-height: 31px;
+    
+    }
+
+
+
+
+    .keseho{
+        display: none;
+    }
+
+
+    .okok{
+
+        width: 57px;
+    }
+
+
+    .innerflex button {
+        width: 50%;
+        height: 73px;
+        border-radius: 100px;
+        border: 0.1px solid #3E66F3;
+    }
+
+
+
+    
+.innerflex {
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.weet{
+    font-size: 31px !important;
+}
+
+
+
+
+
+
+}
+
+
+

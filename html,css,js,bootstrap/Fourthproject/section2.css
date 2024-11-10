@@ -1,0 +1,131 @@
+.section2spacing{
+    padding-top: 85px;
+}
+
+
+.firstsection2{
+    margin-bottom: 14px;
+}
+
+
+.colorforsvg{
+    color: rgb(144 97 249);
+}
+
+
+
+.sixthdiv{
+
+
+    max-width: 760px;
+    margin: auto;
+}
+
+
+.innersixth{
+    padding: 55px 0px;
+}
+
+
+
+.michealgough{
+    padding-right: 15px;
+}
+
+
+.innverseventh{
+    padding: 55px 20px;
+
+}
+
+
+
+.cotainerinnverseventh{
+max-width: 760px;
+margin: auto;
+}
+
+
+.innereight{
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.accordion-button {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit;
+}
+
+.accordion-collapse {
+    transition: none !important;
+}
+
+.accordion-button::after {
+    font-size: 0.8rem; /* Adjust this value to make the arrow smaller */
+}
+
+
+.innerninth{
+    padding: 0px 400pxs;
+}
+
+
+
+
+@media only screen and (max-width:576px){
+    .midmelana{
+        text-align: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width:992px){
+    .hamsathsathhain{
+        display: flex;
+        gap: 12px;
+    }
+
+    s
+        .button1{
+            display: none;
+        }
+    
+   .buttonhidden{
+    display: block;
+   }
+}
+
+@media only screen and (max-width:1135px) {
+    .button1{
+        padding: 10px 13px;
+    }
+    .button2{
+        padding: 10px 13px;
+    }
+}
+
+
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+
+

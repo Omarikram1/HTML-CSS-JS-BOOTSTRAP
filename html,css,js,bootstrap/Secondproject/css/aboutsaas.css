@@ -1,0 +1,360 @@
+.informationbutton3{
+    background-color: #3E66F3;
+    border-radius: 50px;
+    width: 74px;
+    padding: 6px 31px;
+    margin-top: 0px;
+    color: white;
+    height: 35px;
+}
+
+
+
+.informationbutton3 p{
+    font-size: 13px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: var(--bs-font-sans-serif);
+    margin-top: 9px;
+}
+
+
+.fourthsecondaboutsaas{
+    text-align: center;
+}
+
+.secondsecondaboutsaas h2{
+    font-size: 40px;
+}
+
+.paddedaboutsaas{
+    padding: 20px 50px 112px 50px;
+    display: flex;
+    
+}
+
+.eknewdiv{
+    display: flex;
+    gap: 24px;
+}
+.firstaboutsaas{
+
+    width: 50%;
+}
+
+
+.secondaboutsaas{
+    width: 50%;
+ 
+
+}
+
+
+.paddedfirstaboutsaas{
+    padding-right: 35px;
+
+/* 
+    padding-right: 0px;
+box-shadow: -5px -5px 0px 1px;
+border-radius: 20px; */
+
+/* Shaid ye dalna ha idr */
+
+
+}
+
+
+.secondsecondaboutsaas{
+
+    padding-top: 27px;
+    padding-bottom: 36px;
+}
+
+
+.thirdsecondaboutsaas{
+    color: #737887;
+    padding-bottom: 31px;
+}
+
+
+.fourthsecondaboutsaas{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.data{
+    font-size: 22px;
+}
+.logoanddata{
+
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding-bottom: 16px;
+    
+}
+
+
+.butonnn{
+    background-color: #3E66F3;
+    border-radius: 50px;
+    width: 11%;
+    padding: 6px 31p
+}
+
+
+.informationbutton{
+    background-color: #3E66F3;
+    border-radius: 50px;
+    width: 74px;
+    padding: 6px 31px;
+
+
+    margin-top: 0px;
+
+    color: white;
+    height: 35px;
+}
+
+
+.informationbutton p {
+    font-size: 13px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: var(--bs-font-sans-serif);
+    margin-top: 9px;
+}
+
+.lastofright{
+    display: flex;
+    padding-top: 38px;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.circle-icon {
+    background: #ffc0c0;
+    padding:30px;
+    border-radius: 50%;
+}
+
+.informationphone{
+    width: 22px;
+    height: 18px;
+    background: #CCD6FF;
+    padding: 17px;
+    border-radius: 50%;
+}
+
+
+
+.img-box-shadow
+{
+    -moz-box-shadow: 0px 0px 20px #00000037;
+    -webkit-box-shadow: 0px 0px 20px #00000065;
+    box-shadow: 0px 0px 20px #0000004f;
+}
+
+
+@media only screen and (max-width:700px){
+    
+
+
+    .paddedaboutsaas{
+        padding: 20px 17px 112px 17px;
+        flex-direction: column;
+        gap: 46px;
+    }
+
+    .firstaboutsaas{
+        width: 100%;
+   
+    }
+
+
+    .secondaboutsaas{
+        width: 100%;
+    }
+
+    .paddedfirstaboutsaas {
+        padding-right: 0px;
+        box-shadow: -5px -5px 0px 1px;
+        border-radius: 20px;
+        
+        
+        
+        
+    }
+
+   .heavyimage{
+    width: 100%;
+    border-radius: 20px;
+
+
+
+   }
+
+   .secondsecondaboutsaas h2{
+    font-size: 27px;
+}
+
+
+
+.data {
+    font-size: 20px;
+}
+
+
+.fourthsecondaboutsaas {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.fourthsecondaboutsaas{
+    text-align: start;
+}
+
+
+
+#bumbumi{
+    
+        position: relative;
+        margin-top: 0px;
+        margin-right: 11px;
+        left: 1px;
+    
+
+}
+
+
+.secondfeature img{
+    width: 100% !important;
+}
+
+
+/* .informationbutton3{
+
+} */
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:476px){
+    
+
+
+    .paddedaboutsaas{
+        padding: 20px 17px 112px 19px;
+        flex-direction: column;
+        gap: 74px;
+    }
+
+    .firstaboutsaas{
+        width: 100%;
+   
+    }
+
+
+    .secondaboutsaas{
+        width: 100%;
+    }
+
+    .paddedfirstaboutsaas {
+        padding-right: 0px;
+        box-shadow: -5px -5px 0px 1px #3E66F3;
+        border-radius: 20px;
+        
+        
+        
+    }
+
+   .heavyimage{
+    width: 100%;
+
+
+    border-radius: 20px;
+
+
+   }
+
+   .secondsecondaboutsaas11{
+    padding-top: 20px;
+   }
+   
+
+   .secondsecondaboutsaas11 h2{
+    font-size: 27px;
+    font-weight: 600;
+    color:#141D38;
+
+    line-height: 33px;
+}
+
+
+.data {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+
+.fourthsecondaboutsaas {
+    display: flex;
+    justify-content: space-between;
+   
+    gap: 32px;
+}
+
+
+.fourthsecondaboutsaas{
+    text-align: start;
+}
+
+
+
+#bumbumi{
+    
+        position: relative;
+        margin-top: 0px;
+        margin-right: 11px;
+        left: 1px;
+    
+
+}
+
+
+.secondfeature img{
+    width: 100% !important;
+}
+
+
+.img-box-shadow{
+    box-shadow: 0px 0px 31px 19px rgba(0, 31, 96, 0.15);
+    border-radius: 4px;
+}
+
+
+
+.pipipupu{
+    line-height: 29px;
+}
+}
+
+
+

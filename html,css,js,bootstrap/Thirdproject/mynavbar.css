@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.buttonhidden{
+    display: none;
+}
+
+
+.logoandtitle{
+
+    align-items: center;
+}
+
+.padding1{
+    padding: 0px 100px;
+}
+
+ 
+.myownclass{
+    margin-left: auto;
+}
+
+
+.okay{
+    gap: 20px;
+}
+
+
+.font-extrabold {
+    font-weight: 800;
+}
+.tracking-tight {
+    letter-spacing: -0.025em;
+}
+
+
+.thirdsecondcolor{
+    background-color: rgba(128, 128, 128, 0.073);
+}
+
+
+.button1{
+    background-color: rgb(108, 43, 217);
+
+    border-radius: 8px;
+
+    height: 37px;
+    padding: 6px 7px;
+ 
+}
+
+
+.buttonhidden{
+    background-color: rgb(108, 43, 217);
+
+    border-radius: 8px;
+
+    height: 37px;
+    padding: 6px 7px;
+ 
+}
+
+
+.buttonhamburgertogether{
+    display: flex;
+    gap:10px;
+}
+
+.forulline{
+    line-height: 2.5 !important;
+}
+
+
+
+.myownclass li a:hover {
+    color: rgb(126, 58, 242); /* Change to your desired hover color */
+}

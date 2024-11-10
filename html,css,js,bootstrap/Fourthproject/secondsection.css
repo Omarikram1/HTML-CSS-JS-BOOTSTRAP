@@ -1,0 +1,45 @@
+.secondsection{
+    padding: 0px 90px;
+}
+
+
+
+/* .twosearchbars{
+    padding-right: 16px;
+} */
+
+
+
+/* .maindivofsearchbar{
+    padding-right: 60px;
+} */
+
+.extrabutton{
+    width: 90%;
+}
+.gradient-text {
+    background: linear-gradient(90deg, #4a90e2, #3984f4); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+
+@media only screen and (max-width:993px) {
+    .myclass{
+        margin-top: 500px;
+    }
+
+
+/*    
+.extrabutton{
+    width: 100%;
+} */
+}
+
+
+@media only screen and (max-width:768px){
+    .secondsection {
+        padding: 0px;
+    }
+}

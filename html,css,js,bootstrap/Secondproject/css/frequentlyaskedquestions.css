@@ -1,0 +1,229 @@
+.paddedfrequentlyaskedquestions{
+    padding: 70px 60px 70px 60px;
+    display: flex;
+}
+
+
+
+
+.firstfrequentlyaskedquestions{
+
+    width: 50%;
+    padding-right: 50px;
+}
+
+
+
+
+.secondfrequentlyaskedquestions{
+
+    width: 50%;
+}
+
+
+.paddedfirstfrequentlyaskedquestions{
+    padding-left: 61px;
+    border-radius: 20px;
+    border: 1px solid #3E66F3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 61px;
+}
+
+
+
+
+
+
+
+.accordion {
+   
+    color: black;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    /* border: none; */
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.8s;
+
+    font-weight: 500;
+
+    background-color: #FBFCFF;
+    box-shadow: none;
+
+
+    border: 1px solid #E3E7F0;
+    border-radius: 14px
+   
+  }
+  
+  /* .active, .accordion:hover {
+    background-color: #ccc;
+  } */
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-size: 25px;
+    margin-top: -7px;
+  }
+  
+  .active:after {
+    content: "\2212";
+    color: white;
+    
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+
+    
+  }
+
+
+
+.accordiansection{
+  
+display: flex;
+flex-direction: column;
+gap: 13px;
+}
+
+
+.active{
+    background-color: #3E66F3;
+    color: white;
+}
+
+
+
+
+.completebutton{
+    border: 1px solid #8080802e;
+    border-radius: 14px;
+    
+    border: 1px solid #E3E7F0;
+    border-radius: 14px;
+    box-shadow: none;
+
+}
+
+
+
+@media only screen and (max-width:700px){
+  
+  
+  .paddedfrequentlyaskedquestions {
+    padding: 70px 20px 70px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.firstfrequentlyaskedquestions {
+  width: 100%;
+   padding-right: 0px; 
+}
+
+
+.paddedfirstfrequentlyaskedquestions {
+  padding: 20px 25px;
+  border-radius: 20px;
+  border: 1px solid #3E66F3;
+
+
+}
+
+
+
+.secondfrequentlyaskedquestions {
+  width: 100%;
+  text-align: center
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:476px){
+  
+  
+  .paddedfrequentlyaskedquestions {
+    padding: 0px 10px 70px 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.firstfrequentlyaskedquestions {
+  width: 100%;
+   padding-right: 0px; 
+}
+
+
+.paddedfirstfrequentlyaskedquestions {
+  padding: 26px 25px;
+  border-radius: 20px;
+  border: 1px solid #3E66F3;
+
+
+}
+
+
+
+.secondfrequentlyaskedquestions {
+  width: 100%;
+  text-align: center
+}
+
+
+
+.mcd{
+  font-size: 16px !important;
+}
+
+
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 30px;
+  margin-top: -11px;
+}
+
+
+/* .accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  
+} */
+
+.active:after {
+  content: "\2212";
+}
+}

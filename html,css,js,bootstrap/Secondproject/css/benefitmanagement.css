@@ -1,0 +1,112 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap');
+
+
+
+.paddedbenefitmanagement{
+    padding: 140px 50px 50px 50px;
+}
+
+
+.benefitmanagementmaindiv{
+    display: flex;
+    border-radius: 30px;
+}
+
+
+
+.benefitmanagementdiv{
+
+    text-align: center;
+    border-radius: 10px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 20px; */
+}
+
+
+.benefitmanagementdiv img{
+    padding-bottom: 30px;
+}
+
+
+
+.benefitmanagementdiv p{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+
+.paddedbenefitmanagementdiv{
+   
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.benefitmanagementdiv :hover{
+    
+   /* background-color: #8080804a; */
+   background-color: #E2E8FA;
+ 
+}
+
+
+.paddedbenefitmanagementdiv :hover{
+    background-color:  #80808000;
+}
+
+.paddedbenefitmanagementdiv h3{
+    font-family: 'Barlow', sans-serif;
+   
+    transition: 0.7s;
+}
+
+
+
+.paddedbenefitmanagementdiv h3:hover{
+    color: #3E66F3;
+    transition: #3E66F3 0.8s;
+    /* -webkit-transition: color 1s;
+    -webkit-transition: color 0.2s ease-out;
+
+    maybe these are used to give them effect of slowly change color */
+}
+
+
+
+
+
+@media only screen and (max-width:476px){
+    .paddedbenefitmanagement {
+        padding: 140px 25px 50px 25px;
+    }
+
+    .benefitmanagementdiv {
+        width: 100%;
+    
+    }
+
+    .benefitmanagementmaindiv {
+        display: flex;
+        border-radius: 30px;
+        flex-direction: column;
+    }
+
+
+    .contactush2 {
+        
+        padding: 16px 20px 30px 20px;
+        font-family: 'Barlow', sans-serif;
+        
+        /* color: black; */
+        font-size: 28px !important;
+        text-align: center;
+    }
+
+    .meoewmeow2{
+        font-size: 22px !important;
+    }
+}
